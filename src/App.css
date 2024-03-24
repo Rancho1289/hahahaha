@@ -1,0 +1,131 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+.nav-LoginSection{
+  text-align: end;
+  margin: 20px;
+}
+
+.nav-Logo{
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.menu-List{
+  /* border: 1px solid blue; */
+  /* display: flex; */
+  margin: 10px 50px;
+  justify-content: space-around;
+}
+
+.TEST{
+  /* border: 1px solid blueviolet; */
+  /* display: flex; */
+  justify-content: space-evenly;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.Nav-SearchSection{
+  /* border: 1px solid red; */
+  text-align: end;
+  margin: 15px;
+  /* display: flex; */
+  justify-content:center;
+}
+
+
+
+
+.product-Card{
+  /* border:  1px solid brown; */
+  /* text-align: center; */
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  margin: 10px 0px;
+  padding-top: 15px;
+}
+
+.pageNumbers{
+  align-items: center;
+  /* border: 1px solid red; */
+  justify-content: center;
+  text-align: center;
+}
+.gap{
+  margin: 5px;
+}
+
+.product-Card:hover{
+  scale: 1.05;
+}
+
+.productDetail-section{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.productDetail-img{
+  /* border: 1px solid blueviolet; */
+  width: 500px;
+  text-align: center;
+
+}
+
+.productDetail-text{
+  /* border: 1px solid blue; */
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.productDetail-text div{
+  margin: 15px;
+}
